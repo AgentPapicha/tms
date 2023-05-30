@@ -17,7 +17,7 @@
 
 #Task 3
 
-from random import randint
+# from random import randint
 
 # fill_list = [1, 2, 3, 4, 5, 6, 1, 7]
 # def fill_list(minimum, maximum, amount, empty_list):
