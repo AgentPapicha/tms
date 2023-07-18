@@ -1,6 +1,6 @@
 import re
 
-regex_phone_pattern = r"(\++[\d]{1,3})-([\d]{2})-([\d]{5,7})"
+regex_phone_pattern = r"\+\d{1,3}-\d{2}-\d{5,7}"
 regex_compiled = re.compile(regex_phone_pattern)
 
 
