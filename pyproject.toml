@@ -4,10 +4,10 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry]
-name = "TMS"
+name = "tms"
 version = "0.1.0"
 description = "TMS Python lessons"
-authors = ["Aliaksei Kudrautsau <aliaksei.kudrautsau@gmail.com>"]
+authors = ["Pave Ilvutkin <mydak2109@gmail.com>"]
 
 
 [tool.poetry.dependencies]
@@ -76,11 +76,11 @@ max-line-length = "88"
 
 
 [tool.black]
-include = "TMS"
+include = "tms"
 
 
 [tool.coverage.run]
-source = ["TMS"]
+source = ["tms"]
 
 
 [tool.pytest.ini_options]
